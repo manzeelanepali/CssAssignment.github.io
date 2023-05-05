@@ -1,5 +1,4 @@
 #Top{
-   
     color: blue;
 }
 
@@ -15,7 +14,31 @@ h1,h2{
     color: black;
 }
 
+header{
+    width: 100%;
+    padding:16px 0;
+    background-color:green ;
+    /* position: relative; */
 
+}
+
+/* .navbar{
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-portion{
+  width: 80%;
+  margin: 0 auto;
+
+}
     
 
 a:hover{
@@ -107,7 +130,6 @@ body{
     /* padding:0px 50px; */
 
   font-size: 18px;
-  width: 80%;
   color:gray;
   
 
@@ -121,10 +143,6 @@ table{
     
 }
 
-.navbar{
-    background-color:green ;
-    color: white;
-}
 
 th{
     background-color: azure;
@@ -179,16 +197,12 @@ button{
 
 .form-table{
     width: 50%;
-    float: left;
-    
 }
 footer{
     font-family: "poppins",sans-serif;
-    width: 100%;
-    bottom: 0;
-
-    
-   
-    
-  
+    /* width: 100%;
+    bottom: 0;   */
+    background-color: green;
+    color: white;
+    padding: 10px;
 }
